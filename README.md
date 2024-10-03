@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b59d76d1-47f0-42e4-a591-c19841ae0744)
+
 # Aim:
  
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
@@ -57,6 +57,7 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
+
 ```
 
 ## iii) Display the video by resizing the window
@@ -79,9 +80,11 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
+
 ```
 
 ## iv) Rotate and display the video
+```
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
