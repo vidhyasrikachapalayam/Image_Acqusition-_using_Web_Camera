@@ -1,5 +1,5 @@
-
-# Aim:
+# EX 2 Record-Image Acquisition using Web Camera
+## Aim:
  
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
 i) Write the frame as JPG 
@@ -10,26 +10,25 @@ iv) Rotate and display the video
 ## Software Used
 Anaconda - Python 3.7
 ## Algorithm
-Step 1:
+### Step 1:
 Use cv2.VideoCapture(0) to access web camera
 
-Step 2:
+### Step 2: 
 Use cv2.imread to read the video or image
 
-Step 3:
+### Step 3: 
 Use cv2.imwrite to save the image
 
-Step 4:
+### Step 4: 
 Use cv2.imshow to show the video
 
-Step 5:
+### Step 5: 
 End the program and close the output video window by pressing 'q'
 
-
 ## Program:
-``` Python
-### Developed By:vidhyasri 
-### Register No:212222230170
+
+### Developed By: Vidhyasri
+### Register No: 212222230170
 
 ## i) Write the frame as JPG file
 ```
@@ -57,8 +56,9 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
 ```
+
+
 
 ## iii) Display the video by resizing the window
 ```
@@ -80,8 +80,9 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
 ```
+
+
 
 ## iv) Rotate and display the video
 ```
@@ -104,25 +105,20 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
-
 ```
 ## Output
 
 ### i) Write the frame as JPG image
-![image](https://github.com/user-attachments/assets/10095e1a-2679-4bd6-b7ab-878fee0e06df)
-
-
+![image](https://github.com/user-attachments/assets/1a561de1-9184-4964-b7fe-6f7c1c831d3e)
 
 ### ii) Display the video
-![image](https://github.com/user-attachments/assets/4fcfd20f-9269-4b52-9524-bf185e283909)
-
+![image](https://github.com/user-attachments/assets/7aeb7588-c536-4727-9753-f1dc6155eb4f)
 
 ### iii) Display the video by resizing the window
-![image](https://github.com/user-attachments/assets/235ed115-0937-4e1f-8151-3430912b82dd)
+![image](https://github.com/user-attachments/assets/6f629deb-a6f2-4a60-8e6e-ee2910e07c33)
 
 ### iv) Rotate and display the video
-![image](https://github.com/user-attachments/assets/24625dc3-eb61-41f8-a8fd-a1c3656771e8)
-
+![image](https://github.com/user-attachments/assets/7302116f-4ea8-4a9d-8fb8-fb109582804d)
 
 
 ## Result:
